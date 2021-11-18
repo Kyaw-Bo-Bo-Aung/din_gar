@@ -1,0 +1,193 @@
+/*
+theme: #FFFCB3;
+action-btn: #FF756B;
+<a href="https://storyset.com/online">Online illustrations by Storyset</a>
+border-radius: 10px;*/
+*{
+	box-sizing: border-box;
+	/*border:  1px solid red;*/
+}
+.card{
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+	border:  none;
+	border-radius: 10px;
+}
+.btn{
+	padding:  10px 25px;
+	border-radius: 5px;
+}
+body{
+	background: #ddd;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	text-decoration: none;
+	color:  #333;
+}
+a:hover{
+	text-decoration: none;
+	color:  #333;
+}
+.swal2-popup{
+	border-radius: 10px !important;
+	width: 20em !important;
+}
+.swal2-icon .swal2-icon-content{
+	font-size: 2em !important;
+	color:  #FF756B !important;
+}
+.swal2-icon{
+	color:  #FF756B !important;
+	width: 2em !important;
+	height: 2em !important;
+	margin: 1.6em auto .6em !important;
+}
+.swal2-title{
+	font-size: 1.3em !important;
+	padding:  0px !important;
+}
+.swal2-actions button{
+	border-radius: 10px !important;
+	padding:  10px 25px !important;
+}
+.swal2-icon.swal2-error [class^=swal2-x-mark-line] {
+	top: 0.8rem !important;
+	width: 1.9378rem !important;
+}
+.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left] {
+	left: 0.0625em !important;
+}
+.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right] {
+    right: 0rem !important;
+}
+
+/*--------------------Auth------------------------*/
+.auth-form{
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+	border:  none;
+	border-radius: 10px;
+}
+.btn-theme{
+	background: #FF756B;
+	color:  #fff;
+}
+.auth-form a{
+	text-decoration: none;
+	color:	#888;
+}
+.auth-form a:hover{
+	color:	#FF756B;
+}
+/*--------------------header menu---------------------*/
+.header-menu h3{
+	font-size: 25px;
+}
+.header-menu{
+	background: #fff;
+	position: sticky;
+	right: 0;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.header-menu i{
+	font-size: 20px;
+}
+.header-menu p{
+	margin-bottom: 12px;
+}
+.header-menu a{
+	color:  #333;
+	text-decoration: none;
+}
+.header-menu a:hover{
+	color:  #FF756B;
+	transition: .3s;
+}
+.back-btn i, .noti-btn i{
+	font-size: 22px;
+}
+/*--------------------bottom menu---------------------*/
+.bottom-menu{
+	background: #fff;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 99;
+}
+.bottom-menu i{
+	margin-top: 12px;
+	font-size: 20px;
+}
+.bottom-menu p{
+	margin-bottom: 12px;
+}
+.bottom-menu a{
+	/*background: red;*/
+	color:  #333;
+	text-decoration: none;
+	/*border-radius: 50px;*/
+}
+.bottom-menu a:hover{
+	color:  #FF756B;
+	transition: .3s;
+}
+.scan-wrapper{
+	position: absolute;
+	background: #ddd;
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 50%;
+	z-index: 99;
+}
+.scan-inner{
+	width: 3.4rem;
+	height: 3.4rem;
+	background: #fff;
+	border-radius: 50%;
+	animation: fade 3s infinite ease-in-out both;
+}
+@keyframes fade{
+	0%{ box-shadow: 0px 0px -5px #FF756B; }
+	/*20%{ box-shadow: 0px 0px -5px #FF756B; }*/
+	45%{ box-shadow: 0px 0px 0px #FF756B; }
+	/*55%{ box-shadow: 0px 0px 0px #FF756B; }*/
+	70%{ box-shadow: 0px 0px 15px #FF756B; }
+	/*85%{ box-shadow: 0px 0px 5px #FF756B; }*/
+	100%{ box-shadow: 0px 0px 0px #FF756B; }
+}
+/*------------------------ Account ------------------------*/
+.account .profile-detail .card{
+	border-radius: 10px;
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+}
+.logout-btn:hover, .change-pwd-btn:hover{
+	cursor: pointer;
+	border-radius: 10px;
+	color:  #FF756B;
+}
+/*---------------------------- Wallet ----------------------------*/
+.wallet span{
+	display: block;
+}
+.wallet .card .card-body{
+	background: #FFFCB3;
+	border-radius: 10px;
+	color: #333;
+}
+/*-------------------------------- notifications ---------------------------*/
+.noti-btn{
+	position: relative;
+}
+.notifications .noti_unread{
+	background: #eceff5;
+	border: 1px solid #fff;
+}
+#unread_noti_count{
+	position: absolute;
+	top:  -1.2em;
+	right: -1.2em;
+	border-radius: 50%;
+}
