@@ -17,7 +17,7 @@ border-radius: 10px;*/
 	border-radius: 5px;
 }
 body{
-	background: #ddd;
+	background: #99edc3;
 	font-size: 15px;
 	font-family: 'Roboto', sans-serif;
 }
@@ -173,7 +173,7 @@ a:hover{
 	display: block;
 }
 .wallet .card .card-body{
-	background: #FFFCB3;
+	background: #fff;
 	border-radius: 10px;
 	color: #333;
 }

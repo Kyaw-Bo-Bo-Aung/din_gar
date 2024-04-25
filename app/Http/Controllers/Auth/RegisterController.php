@@ -84,7 +84,7 @@ class RegisterController extends Controller
             ],
             [
                 'account_number' => UUIDGenerator::accountNumber(),
-                'amount' => 0
+                'amount' => 10000
              ]
         );
         $user->ip = $request->ip();
